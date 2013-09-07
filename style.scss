@@ -1,5 +1,5 @@
 
-$blue: #ddd;
+$blue: rgb(97, 55, 211);
 $light-blue: #9CC0EA;
 $dark-blue: #488ad8;
 
@@ -14,7 +14,6 @@ header {
   margin-bottom: 20px;
   padding-right:20px;
   text-align:center;
-  color: black;
   text-rendering: optimizeLegibility;
   
   .icon,
@@ -93,7 +92,7 @@ section#main {
   margin-top: 100px;
   margin-bottom: 0px;
   background-color: $blue;
-  color: black;
+  color: white;
 }
 
 section#screenshots,
@@ -221,11 +220,13 @@ footer {
   }
   header.insert {
     display: block;
-    color: black;
     text-align: left;
         
     .icon {
       padding-left: 0;
+      border: 3px solid white;
+      background-color: white;
+      border-radius: 15px;
     }
     h1 {
       position: relative;
