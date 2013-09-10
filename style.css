@@ -209,7 +209,7 @@ footer {
 
   footer > a {
     position: relative;
-    top: 7px; } }
+    top: -87px; } }
 @media all and (min-width: 800px) and (max-width: 950px) {
   section#main {
     margin-top: 20px;
