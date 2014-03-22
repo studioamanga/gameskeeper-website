@@ -21,8 +21,9 @@ header {
   header h1 {
     padding-left: 10px;
     position: relative;
-    top: 5px;
-    font-size: 2.4em; }
+    top: 15px;
+    font-size: 2.2em;
+    font-weight: normal; }
   header.insert {
     display: none; }
   header.general {
@@ -159,13 +160,13 @@ footer {
     text-align: left; }
     header.insert .icon {
       padding-left: 0;
-      border: 3px solid white;
+      border: 2px solid white;
       background-color: white;
       border-radius: 15px; }
     header.insert h1 {
       position: relative;
       font-size: 3em;
-      top: 23px; }
+      top: 26px; }
 
   header.general ul li {
     display: inline-block; }
@@ -206,11 +207,7 @@ footer {
     text-align: center; }
 
   footer > * {
-    text-align: left; }
-
-  footer > a {
-    position: relative;
-    top: -8px; } }
+    text-align: left; } }
 @media all and (min-width: 800px) and (max-width: 950px) {
   section#main {
     margin-top: 20px;
