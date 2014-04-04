@@ -17,12 +17,12 @@ header {
     vertical-align: top; }
   header .icon {
     height: 72px;
-    padding-left: 26px; }
+    border-radius: 15px; }
   header h1 {
     padding-left: 10px;
     position: relative;
-    top: 15px;
-    font-size: 2.2em;
+    top: 17px;
+    font-size: 2em;
     font-weight: normal; }
   header.insert {
     display: none; }
@@ -95,6 +95,10 @@ section.msg {
 section.msg a {
   color: #6137d3; }
 
+.download img {
+  width: 225px;
+  height: 66px; }
+
 section#features h2 {
   font-weight: normal;
   text-align: center;
@@ -140,7 +144,8 @@ footer {
     color: #888;
     text-decoration: none; }
     footer a img {
-      opacity: 0.35; }
+      opacity: 0.35;
+      width: 50px; }
     footer a:HOVER {
       color: #444; }
       footer a:HOVER img {
@@ -151,7 +156,7 @@ footer {
     vertical-align: top;
     margin: 0px; }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 760px) {
   header.top {
     display: none; }
 
@@ -208,7 +213,7 @@ footer {
 
   footer > * {
     text-align: left; } }
-@media all and (min-width: 800px) and (max-width: 950px) {
+@media all and (min-width: 760px) and (max-width: 950px) {
   section#main {
     margin-top: 20px;
     margin-bottom: 0px; }
