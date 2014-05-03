@@ -121,6 +121,10 @@ section#features ul {
     section#features ul li p {
       margin: 0px;
       font-size: 0.9em; }
+section#features blockquote {
+  margin-left: 0px; }
+  section#features blockquote q {
+    font-style: italic; }
 section#features a {
   position: relative;
   top: 30px;

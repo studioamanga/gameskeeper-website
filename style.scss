@@ -172,6 +172,14 @@ section#features {
       }
     }
   }
+
+  blockquote {
+    margin-left: 0px;
+
+    q {
+      font-style: italic;
+    }
+  }
   
   a {
     position: relative;
