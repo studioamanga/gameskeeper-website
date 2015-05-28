@@ -2,14 +2,105 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
-    <title>Games Keeper for iPhone and iPod touch</title>
-    <link href='style.css?v' rel='stylesheet' type='text/css'>
+    <title>Games Keeper for iPhone and iPad</title>
+    <link href='style.css?re' rel='stylesheet' type='text/css'>
     <link href='http://www.studioamanga.com/img/favicon.ico' rel='shortcut icon'>
     <link href='../img/touch-icon-iphone4.png' rel='apple-touch-icon-precomposed'>
     <link href='../img/touch-icon-ipad.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
     <meta content='Games Keeper is the easiest way to track scores.' name='description'>
     <meta content='width=device-width' name='viewport'>
     <meta content='app-id=674138310' name='apple-itunes-app'>
+  </head>
+  <body>
+    <nav class='general'>
+      <ul>
+        <li>
+          <a href='http://www.studioamanga.com/'>
+            <img alt='StdAMG' src='img/icon-amg.png'>
+            <span>Studio AMANgA</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/contacts/'>
+            <img alt='Contacts' src='img/icon-contacts.png'>
+            <span>Contact[s]</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/onelist/'>
+            <img alt='1List' src='img/icon-onelist.png'>
+            <span>1List</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/comicbookday/'>
+            <img alt='Comic Book Day' src='img/icon-comicbookday.png'>
+            <span>Comic Book Day</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class='top cropped-bottom'>
+      <div class='title'>
+        <img alt='Icon' class='icon' src='img/icon-72-2x.png'>
+        <h1>Games Keeper</h1>
+      </div>
+      <div>
+        <img alt='Screens' class='showcase' src='img/screens.png'>
+      </div>
+    </header>
+    <section class='main'>
+      <div class='tagline'>
+        The easiest way to track scores.
+        <br>
+        It works with every game, every time, with everyone.
+        <blockquote>
+          <q>Perfect. This app is amazing.</q>
+          ★★★★★
+        </blockquote>
+        <blockquote>
+          <q>The only scoring app I’ll use.</q>
+          ★★★★★
+        </blockquote>
+      </div>
+      <div class='feature'>
+        <h3>Unlimited Number of Players</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>Invite all your friends.</p>
+      </div>
+      <div class='feature'>
+        <h3>Visual Scores</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>Visualize results with ranks and charts.</p>
+      </div>
+      <div class='feature'>
+        <h3>Games History</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>Keep track of all your scores.</p>
+      </div>
+      <div class='feature'>
+        <h3>Built-in Tools</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>Get timer, die, and online dictionary.</p>
+      </div>
+      <p class='download'>
+        <a href='https://itunes.apple.com/app/games-keeper/id674138310?mt=8'>
+          <img alt='Download on the App Store' src='img/download-appstore.svg'>
+        </a>
+      </p>
+    </section>
+    <footer>
+      <a href='http://www.studioamanga.com'>
+        <img alt='StdAMG' src='img/amgmini-black.png'>
+      </a>
+      <p>
+        “Games Keeper” for iPhone, iPad, and iPod touch
+        <br>
+        <a href='releasenotes'>Release Notes</a>
+        <br>
+        Made by Studio AMANgA 2013-2015
+      </p>
+    </footer>
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-18279263-1']);
@@ -20,112 +111,5 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <script>
-      currentScreenshotIndex = 1;
-      previousScreenshot = null;
-      setInterval(alternateScreenshots, 5000);
-      
-      function alternateScreenshots()
-      {
-        newScreenshot = document.getElementById('screen'+currentScreenshotIndex);
-        if (previousScreenshot)
-          previousScreenshot.style.opacity = '0';
-        newScreenshot.style.opacity = '1';
-        previousScreenshot = newScreenshot;
-        currentScreenshotIndex ++;
-        if (currentScreenshotIndex > 3) 
-          currentScreenshotIndex = 1;
-      }
-    </script>
-  </head>
-  <body>
-    <header class='general'>
-      <nav>
-        <ul>
-          <li>
-            <a href='http://www.studioamanga.com/'>
-              <img alt='StdAMG' src='img/icon-amg.png?val'>
-              <span>Studio AMANgA</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/comicbookday/'>
-              <img alt='Comic Book Day' src='img/icon-comicbookday.png?val'>
-              <span>Comic Book Day</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/contacts/'>
-              <img alt='Contacts' src='img/icon-contacts.png?val'>
-              <span>Contact[s]</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/onelist/'>
-              <img alt='1List' src='img/icon-onelist.png?val'>
-              <span>1List</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/wizbox/'>
-              <img alt='WizBox' src='img/icon-wizbox.png?val'>
-              <span>WizBox</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <header class='top'>
-      <img alt='Icon' class='icon' src='img/Icon-72-2x.png?va'>
-      <h1>Games Keeper</h1>
-    </header>
-    <section id='main'>
-      <section id='screenshots'>
-        <img alt='iPhone' id='screen0' src='img/iphone-5.png'>
-        <img alt='New Game Screenshot' id='screen3' src='img/screen-3-ip5.png'>
-        <img alt='Results Screenshot' id='screen2' src='img/screen-2-ip5.png'>
-        <img alt='Scores Screenshot' id='screen1' src='img/screen-1-ip5.png'>
-      </section>
-      <section id='features'>
-        <header class='insert'>
-          <img alt='Icon' class='icon' src='img/Icon-72-2x.png?va'>
-          <h1>Games Keeper</h1>
-        </header>
-        <h2>Enjoy the Game.</h2>
-        <p>
-          Games Keeper is the easiest way to track scores.
-        </p>
-        <p>
-          It works with every game, every time, with everyone.
-        </p>
-        <br>
-        <blockquote>
-          <q>Perfect. This app is amazing.</q>
-          ★★★★★
-        </blockquote>
-        <blockquote>
-          <q>The only scoring app I’ll use.</q>
-          ★★★★★
-        </blockquote>
-        <br>
-        <p class='download'>
-          <a href='https://itunes.apple.com/app/games-keeper/id674138310?mt=8'>
-            <img alt='Download on the App Store' src='img/download-appstore.svg'>
-          </a>
-        </p>
-      </section>
-    </section>
-    <footer>
-      <a href='http://www.studioamanga.com'>
-        <img alt='StdAMG' src='img/amgmini-black.png?val'>
-      </a>
-      <p>
-        “Games Keeper” for iPhone and iPod touch
-        <br>
-        Designed by Studio AMANgA 2013-2014
-        <br>
-        <a href='releasenotes'>Release Notes</a>
-      </p>
-    </footer>
   </body>
 </html>
