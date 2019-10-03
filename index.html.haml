@@ -19,7 +19,9 @@
 
     %header.top.cropped-bottom
       %div.title
-        %img.icon{:alt => "Icon", :src => "img/icon-72-2x.png"}
+        %picture
+          %source{:srcset => "img/icon-72-2x-dark.png", :media => "(prefers-color-scheme: dark)"}
+          %img.icon{:alt => "Icon", :src => "img/icon-72-2x.png"}
         %h1 Games Keeper
       %div
         %img.showcase{:alt => "Screens", :src => "img/screens.png"}
