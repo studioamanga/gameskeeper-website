@@ -4,6 +4,7 @@ all:
 	cd ../../../Projects/iOS/GamesKeeper/
 	git pull
 	cd ../../../Web/amg/gameskeeper/
+	cp ../../../Projects/iOS/GamesKeeper/releasenotes.html .
 	open .
 	open /Applications/Cyberduck.app
 
